@@ -10,7 +10,7 @@ def loadSetupData():
     return grades
 
 def loadUserGradesData():
-    if os.path.isfile('./gc_grades.json') == True:
+    if os.path.isfile('./grades.json') == True:
         with open('grades') as data_file:
             user_data = json.load(data_file)
 
